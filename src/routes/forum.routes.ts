@@ -10,7 +10,7 @@ const testPosts: Post[] = [
     title: 'The Last of Us is a great game',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-    tags: ['Fantasy', 'Adventure'],
+    tags: ["General"],
     userId: 'fd18c86a-3e63-4a62-8f50-0d27b6a2be7a',
     username: 'placeholder',
     userPicture:
@@ -22,7 +22,7 @@ const testPosts: Post[] = [
     title: 'The Last of Us is a bad game',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-    tags: ['Adventure'],
+    tags: ['Bug'],
     userId: 'fd18c86a-3e63-4a62-8f50-0d27b6a2be5a',
     username: 'placeholder 2',
     userPicture:
