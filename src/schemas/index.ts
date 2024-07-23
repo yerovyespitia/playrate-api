@@ -7,7 +7,9 @@ export const gameSchema = z.object({
   title: z.string().min(3),
   wallpaper: z.string().url(),
   description: z.string().min(20),
-  genre: z.array(z.string()).min(1),
+  genre: z
+    .array(z.enum(['Action', 'Adventure', 'TPS', 'Survival Horror', 'FPS']))
+    .min(1),
   platforms: z.array(z.string()).min(1),
   releaseDate: z.date(),
   createdAt: z.date(),
