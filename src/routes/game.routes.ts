@@ -19,6 +19,7 @@ const testGames: Game[] = [
     developers: ['Naughty Dog'],
     publishers: ['Sony Computer', 'Entertainment'],
     rating: 0,
+    reviews: 0,
   },
   {
     id: 'fd16c96a-3e63-4a62-8f50-0d27b6a2be9a',
@@ -34,6 +35,7 @@ const testGames: Game[] = [
     developers: ['Naughty Dog'],
     publishers: ['Sony Computer', 'Entertainment'],
     rating: 0,
+    reviews: 0,
   },
 ]
 
