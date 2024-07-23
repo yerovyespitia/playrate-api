@@ -14,13 +14,14 @@ export const gameSchema = z.object({
   developers: z.array(z.string()).min(1),
   publishers: z.array(z.string()).min(1),
   rating: z.number().default(0),
+  reviews: z.number().default(0),
 })
 
 export const postSchema = z.object({
   id: idSchema,
   title: z.string().min(3),
   description: z.string().min(3),
-  tags: z.array(z.enum(['Adventure', 'Fantasy'])).min(1),
+  tags: z.array(z.enum(['General', 'Bug'])).min(1),
   userId: idSchema,
   username: z.string().min(3),
   userPicture: z.string().url(),
